@@ -1,6 +1,6 @@
 Overview: Food Ordering System
 
-Want a delicious meal, but no time, We will rescue you from the aggression of hunger, we will deliver it hot and yummy. Yummy food which will please you time, money and tummy, Let deliciousness twirl in your mouth.Freshness and happiness on the way...!! 
+Want a delicious meal, but no time, We will rescue you from the aggression of hunger, we will deliver it hot and yummy. Yummy food which will please your time, money and tummy, Let deliciousness twirl in your mouth.Freshness and happiness on the way...!! 
 you can order from one restaurant at a time.
 
 Project Description :
