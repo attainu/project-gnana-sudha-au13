@@ -53,7 +53,7 @@ class MainPage:
         s.def_main()
 
     def list_of_foods_drinks(self):
-        l = {"1": "bawarchi", "2": "grand", "3": "sri kanya", "4": "kritunga"}
+        l = {"1": "Nagarjuna", "2": "A2B", "3": "shanthi", "4": "5star"}
         print("*" * 5 + "( If you wish to know the price of the food which you are looking for,\nplease enter the food and drink name )" + "*" * 5)
         print("\n")
         print("If you wish to go through the restaurant names and order your food, just enter")
@@ -94,7 +94,7 @@ class MainPage:
                 self.list_restaurant()
 
     def complete_information(self):                           # To fetch the food and drink based on RESTAURANT name.
-        l = {"1": "bawarchi", "2": "grand", "3": "sri kanya", "4": "kritunga"}
+        l = {"1": "Nagarjuna", "2": "A2B", "3": "shanthi", "4": "5star"}
         name_res = input("Please select the RESTAURANT..: ")
 
         if len(name_res) == 1:
@@ -144,10 +144,10 @@ if __name__ == "__main__":
                         help = "RESTAURANT NAMES" + "\n"     
 
                         
-                        "\t(1) bawarchi\n"                              
-                        "\t(2) grand\n"
-                        "\t(3) sri kanya\n"
-                        "\t(4) kritunga\n")  # defining arguments for parser object 
+                        "\t(1) NAGARJUNA\n"                              
+                        "\t(2) A2B\n"
+                        "\t(3) SHANTI SAGAR\n"
+                        "\t(4) 5STAR\n")  # defining arguments for parser object 
     args = parser.parse_args()
 
     mP = MainPage()

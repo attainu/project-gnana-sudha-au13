@@ -6,13 +6,13 @@ class Database_:                                    # class to fetch the restaur
         self.list_services = []                       # To fetch services
         self.var_discount_ = []                     # First discount starts.
         if n == str(1):
-            self.name = "bawarchi"                   # file name to fetch the details
+            self.name = "nagarjuna"                   # file name to fetch the details
         if n == str(2):
-            self.name = "grand"                         # file name to fetch the details
+            self.name = "A2B"                         # file name to fetch the details
         if n == str(3):
-            self.name = "sri kanya"                     # file name to fetch the details
+            self.name = "shanthi"                     # file name to fetch the details
         if n == str(4):
-            self.name = "kritunga"                       # file name to fetch the details
+            self.name = "5Star"                       # file name to fetch the details
 
     def def_full_file_reader(self):                                                                     
         file_foods = open('database_file' + "\\" + self.name + "\\" + 'list_foods.fsd', 'r')  # Reading Food List
@@ -54,10 +54,10 @@ class Database_:                                    # class to fetch the restaur
             i += 1
         return (self.list_foods, self.list_drinks, self.list_services, self.var_discount_)
 
-    def food_name_wise1(self, food_name = "", drink_name = ""):                                                          
+    def food_name_wise1(self, foo_name = "", drink_name = ""):                                                          
         file_foods = open('database_file' + "\\" + self.name + "\\" + 'list_foods.fsd', 'r')  # Reading Food List
         for i in file_foods: 
-            if food_name in i:  # Line by line reading
+            if foo_name in i:  # Line by line reading
                 self.list_foods.append(str(i.strip()))   # Adding each line (Food) into an array after applying Strip function to remove out extra spaces in front and back
         file_foods.close()
         file_drinks = open('database_file' + "\\" + self.name + "\\" + 'list_drinks.fsd', 'r')  # Reading Drinks List
